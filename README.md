@@ -1,1 +1,4 @@
 # PRML-Benchmarking-Music-Genre-Classification
+
+In this project, data is retrieved from the GTZAN dataset regarding music genre classification. This dataset consist of 100 audio files for each genre. 10 genres are incorporated in this dataset. Two files are provided within the dataset: a file with audio fragments of each 30 seconds and a file with audio fragments of each 3 seconds. In the 3 second file, the 30 second audio fragments are cut in smaller fragments of 3 seconds each, which yields 10 times more data. Because it is preferred to have more data, in this project the 3 second file is used. The audio fragments are described by 57 acoustic features, like the spectral centroid, spectral rolloff and Mel frequency cepstral coefficients. The aim of this project is to perform a benchmarking of machine learning algorithms and neural networks to evaluate their performance on music genre classification.
+
